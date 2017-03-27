@@ -1,2 +1,1 @@
-# wechat-api
-# composer-car
+# composer-wechat-api
