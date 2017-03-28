@@ -199,7 +199,6 @@ class Api
         $header[] = 'Bizmp-Version:2.0';
 
         $ch = curl_init();
-        wlog($apiUrl);
         curl_setopt($ch, CURLOPT_URL, $apiUrl);
         curl_setopt($ch, CURLOPT_TIMEOUT, 60);
         curl_setopt($ch, CURLOPT_HEADER, true);
@@ -222,7 +221,6 @@ class Api
         $result['info'] = $body;
         $result['header'] = $header;
         $result['status'] = $httpcode;
-        wlog($result);
 
         return self::packData($result);
     }
