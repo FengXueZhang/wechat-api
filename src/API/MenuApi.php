@@ -7,14 +7,14 @@ use WechatApi\Api;
 /**
  * 微信应用创建菜单.
  *
- * @author Cui.
+ * @author XueFeng.
  */
 class MenuApi extends BaseApi
 {
     /**
      * 创建菜单
      *
-     * @author Cui
+     * @author XueFeng
      *
      * @date   2015-08-23
      *
@@ -41,7 +41,7 @@ class MenuApi extends BaseApi
     /**
      * 删除应用菜单
      *
-     * @author Cui
+     * @author XueFeng
      *
      * @date   2015-08-23
      *
@@ -67,7 +67,7 @@ class MenuApi extends BaseApi
     /**
      * 获取应用菜单列表
      *
-     * @author Cui
+     * @author XueFeng
      *
      * @date   2015-08-23
      *

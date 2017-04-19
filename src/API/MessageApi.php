@@ -5,7 +5,7 @@ namespace WechatApi\API;
 /**
  * 微信 发送消息的相关接口.
  *
- * @author Cui.
+ * @author XueFeng.
  */
 class MessageApi extends BaseApi
 {

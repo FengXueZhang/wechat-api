@@ -7,14 +7,14 @@ use WechatApi\Api;
 /**
  * 微信JSSDK相关接口.
  *
- * @author Cui.
+ * @author XueFeng.
  */
 class JSSDKApi extends BaseApi
 {
     /**
      * 获取JSSDK接口认证.
      *
-     * @author Cui
+     * @author XueFeng
      *
      * @date   2015-07-27
      *
@@ -43,7 +43,7 @@ class JSSDKApi extends BaseApi
     /**
      * 获取JSSDK签名.
      *
-     * @author Cui 
+     * @author XueFeng 
      *
      * @date   2015-07-27
      *
@@ -76,7 +76,7 @@ class JSSDKApi extends BaseApi
     /**
      * 获取唯一时间戳.
      *
-     * @author Cui
+     * @author XueFeng
      *
      * @date   2015-07-27
      *
@@ -95,7 +95,7 @@ class JSSDKApi extends BaseApi
     /**
      * 获取唯一随机串.
      *
-     * @author Cui
+     * @author XueFeng
      *
      * @date   2015-07-27
      *
@@ -118,7 +118,7 @@ class JSSDKApi extends BaseApi
     /**
      * 获取联系人控件票据和管理组id
      *
-     * @author Cui
+     * @author XueFeng
      *
      * @date   2015-12-25
      *
@@ -149,7 +149,7 @@ class JSSDKApi extends BaseApi
     /**
      * 获取JSSDK联系人控件签名.
      *
-     * @author Cui
+     * @author XueFeng
      *
      * @date   2015-07-27
      *

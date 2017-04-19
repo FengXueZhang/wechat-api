@@ -136,7 +136,7 @@ class ChatApi extends BaseApi
     /**
      * 链式操作-发送人.
      *
-     * @author Cui
+     * @author XueFeng
      *
      * @date   2015-08-11
      *
@@ -160,7 +160,7 @@ class ChatApi extends BaseApi
     /**
      * 链式操作-接收人.
      *
-     * @author Cui
+     * @author XueFeng
      *
      * @date   2015-08-11
      *
@@ -184,7 +184,7 @@ class ChatApi extends BaseApi
     /**
      * 链式操作-发送信息为text.
      *
-     * @author Cui
+     * @author XueFeng
      *
      * @date   2015-08-11
      *
@@ -209,7 +209,7 @@ class ChatApi extends BaseApi
     /**
      * 链式操作-发送信息为iamge.
      *
-     * @author Cui
+     * @author XueFeng
      *
      * @date   2015-08-11
      *
@@ -259,7 +259,7 @@ class ChatApi extends BaseApi
     /**
      * 链式操作-接收类型.
      *
-     * @author Cui
+     * @author XueFeng
      *
      * @date   2015-08-11
      *
@@ -285,7 +285,7 @@ class ChatApi extends BaseApi
     /**
      * 链式操作-发送 发送完成后 清除对象内的相关属性.
      *
-     * @author Cui
+     * @author XueFeng
      *
      * @date   2015-08-11
      *

@@ -7,7 +7,7 @@ use WechatApi\Api;
 /**
  * 媒体文件相关接口.
  *
- * @author Cui.
+ * @author XueFeng.
  */
 class MediaApi extends BaseApi
 {
