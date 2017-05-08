@@ -69,7 +69,7 @@ class Api
     /**
      * 设置错误信息.
      *
-     * @date   2015-07-27
+     * @date   2015-07-28
      *
      * @param string $errorText 错误信息
      */
