@@ -4,10 +4,6 @@ namespace WechatApi;
 
 use WechatApi\API\BaseApi;
 
-/**
- * 微信API基类.
- 
- */
 class Api
 {
     private static $error = ''; // 错误信息;
@@ -20,7 +16,6 @@ class Api
 
     /**
      * 接口初始化, 必须执行此方法才可以使用接口.
-     *
      *
      * @date   2015-07-29
      *
@@ -40,7 +35,6 @@ class Api
 
     /**
      * 工厂+多例模式 获取接口实例.
-     *
      *
      * @date   2015-07-27
      *
@@ -75,7 +69,6 @@ class Api
     /**
      * 设置错误信息.
      *
-     *
      * @date   2015-07-27
      *
      * @param string $errorText 错误信息
@@ -87,7 +80,6 @@ class Api
 
     /**
      * 获取错误信息.
-     *
      *
      * @date   2015-07-27
      *
@@ -101,7 +93,6 @@ class Api
     /**
      * 设置post操作的get参数.
      *
-     *
      * @date   2015-08-03
      *
      * @param string $name  参数名
@@ -114,7 +105,6 @@ class Api
 
     /**
      * 获取当前操作企业号的corpid.
-     *
      *
      * @date   2015-07-29
      *
