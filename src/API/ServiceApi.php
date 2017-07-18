@@ -83,5 +83,21 @@ class ServiceApi extends BaseApi
     {
         return Api::factory("User")->receive();
     }
-
+    
+    /**
+     * 根据用户ID获取用户信息.
+     *
+     * @author XueFeng
+     *
+     * @date   2016-04-21
+     *
+     * @param string $userId 用户在微信端的userid.
+     *
+     * @return array 用户信息
+     */
+    public function getInfoById($userId)
+    {
+        return Api::factory("User")->getInfoById($userId);
+        //return $this->_get($node, $queryStr);
+    }
 }
