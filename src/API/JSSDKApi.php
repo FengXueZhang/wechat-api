@@ -60,7 +60,7 @@ class JSSDKApi extends BaseApi
         $data['noncestr'] = $nonceStr;
         $data['timestamp'] = $timestamp;
         $data['url'] = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-        //$data['url'] = "http://o365.weflame.com/chatList";
+
         $signature = '';
         foreach ($data as $key => $value) {
             $signature .= $key . '=' . $value . '&';
@@ -69,8 +69,8 @@ class JSSDKApi extends BaseApi
         $signature = rtrim($signature, '&');
 
         $signature = sha1($signature);
-
-        return $signature;
+        $data['signature'] = $signature;
+        return $data;
     }
 
     /**
