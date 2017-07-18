@@ -16,7 +16,7 @@ class ServiceApi extends BaseApi
      *
      * @author XueFeng
      *
-     * @date   2016-04-21
+     * @date   2017-07-17
      *
      * @param string $redirectUri 协议的回调地址
      * @param string $state       可携带的参数, 选填.
