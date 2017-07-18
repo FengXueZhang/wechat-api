@@ -98,6 +98,5 @@ class ServiceApi extends BaseApi
     public function getInfoById($userId)
     {
         return Api::factory("User")->getInfoById($userId);
-        //return $this->_get($node, $queryStr);
     }
 }
