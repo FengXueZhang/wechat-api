@@ -39,7 +39,8 @@ class ServiceApi extends BaseApi
 
         $url = array();
         $url['appid'] = Api::getCorpId();
-        $url['agentid'] = $host . $redirectUri;
+        $url['agentid'] = $agentid;
+        $url['redirect_uri'] = $host . $redirectUri;
         $url['state'] = $state;
 
         $url = http_build_query($url);
@@ -59,7 +60,7 @@ class ServiceApi extends BaseApi
      */
     public function request($redirectUri, $state = '')
     {
-        $code = I('get.auth_code', false, 'trim');
+        $code = I('get.code', false, 'trim');
         if ($code) {
             return;
         }
